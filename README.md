@@ -1,5 +1,24 @@
 # 🎫 Customer Support Ticket Priority Prediction & Automated Assignment System
 
+📂 Project Resources
+
+🎥 [Project Demo Video] — Watch Demo Video
+
+📄 [Project Documentation] — View Documentation
+
+👥 Team Details
+
+Team ID: SWTID-2026-4152
+Team Size: 4
+College: St. Joseph's College of Engineering and Technology, Thanjavur
+College Code: 8219
+
+Name	Role	NMID
+Abishek T	Team Leader	7E1A977E3A8DCACAC4E4061CA8D874B9
+Joshua S	Team Member	A83BB4CDFF13894AA6A477D84C70CFC0
+Arun R	Team Member	2B33CF751857FFC9E7F4C63C1B9085C6
+Nawin Prasath S	Team Member	83579FFF1150A67B4C045EE491954AEF
+
 A Salesforce-based intelligent customer support system that automatically analyzes support tickets, predicts their priority, creates urgent tasks, and assigns tickets to the appropriate support level using **Salesforce Flow and Agentforce**.
 
 ---
