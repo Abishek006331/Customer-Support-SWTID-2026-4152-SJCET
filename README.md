@@ -1,25 +1,29 @@
 # 🎫 Customer Support Ticket Priority Prediction & Automated Assignment System
 
-📂 Project Resources
+A Salesforce-based intelligent customer support system that automatically analyzes support tickets, predicts their priority, creates urgent tasks, and assigns them to the appropriate support level using **Salesforce Flow and Agentforce**.
 
-🎥 [Project Demo Video] — Watch Demo Video
+---
 
-📄 [Project Documentation] — View Documentation
+## 🎥 Project Resources
 
-👥 Team Details
+- 🎬 **Demo Video:** [Watch Project Demo](https://drive.google.com/file/d/1kZkqjSE2PE4VYHx4s_H7Lt3V36bs3RXK/view?usp=sharing)
+- 📄 **Project Documentation:** [View Project Documentation](https://drive.google.com/file/d/1VdhbGEpzcC5DVX9RS7r8ZSt8sG4Z-bxp/view?usp=sharing)
 
-Team ID: SWTID-2026-4152
-Team Size: 4
-College: St. Joseph's College of Engineering and Technology, Thanjavur
-College Code: 8219
+---
 
-Name	Role	NMID
-Abishek T	Team Leader	7E1A977E3A8DCACAC4E4061CA8D874B9
-Joshua S	Team Member	A83BB4CDFF13894AA6A477D84C70CFC0
-Arun R	Team Member	2B33CF751857FFC9E7F4C63C1B9085C6
-Nawin Prasath S	Team Member	83579FFF1150A67B4C045EE491954AEF
+## 👥 Team Details
 
-A Salesforce-based intelligent customer support system that automatically analyzes support tickets, predicts their priority, creates urgent tasks, and assigns tickets to the appropriate support level using **Salesforce Flow and Agentforce**.
+**Team ID:** `SWTID-2026-4152`  
+**Team Size:** 4  
+**College:** St. Joseph's College of Engineering and Technology, Thanjavur  
+**College Code:** `8219`
+
+| Name | Role | NMID |
+|---|---|---|
+| **Abishek T** | Team Leader | `7E1A977E3A8DCACAC4E4061CA8D874B9` |
+| **Joshua S** | Team Member | `A83BB4CDFF13894AA6A477D84C70CFC0` |
+| **Arun R** | Team Member | `2B33CF751857FFC9E7F4C63C1B9085C6` |
+| **Nawin Prasath S** | Team Member | `83579FFF1150A67B4C045EE491954AEF` |
 
 ---
 
@@ -39,7 +43,7 @@ The system:
 - Provides conversational access through **Agentforce**
 - Performs an optional SLA breach-risk check
 
-The complete solution is built using Salesforce, an Auto-Launched Flow, and an Agentforce subagent. :contentReference[oaicite:1]{index=1}
+The complete solution is built using Salesforce, an Auto-Launched Flow, and an Agentforce subagent.
 
 ---
 
@@ -51,11 +55,11 @@ Tickets are classified based on keywords in the ticket description:
 
 | Priority | Keywords | Action |
 |---|---|---|
-| 🔴 High | `urgent`, `not working`, `failure` | Create urgent task + assign Senior Support Agent |
-| 🟠 Medium | `issue`, `slow`, `delay` | Mark for handling shortly |
-| 🟢 Low | None of the above | Queue for processing |
+| 🔴 **High** | `urgent`, `not working`, `failure` | Create urgent task + assign Senior Support Agent |
+| 🟠 **Medium** | `issue`, `slow`, `delay` | Mark for handling shortly |
+| 🟢 **Low** | None of the above | Queue for processing |
 
-High-priority conditions are checked first, so if a ticket contains both High and Medium keywords, it is classified as **High**. :contentReference[oaicite:2]{index=2}
+High-priority conditions are checked first, so if a ticket contains both High and Medium keywords, it is classified as **High**.
 
 ---
 
@@ -77,7 +81,7 @@ Agentforce then:
 6. Assigns the appropriate support level.
 7. Returns the result to the user.
 
-The Agentforce action uses the Auto-Launched Flow as its backend automation. :contentReference[oaicite:3]{index=3}
+The Agentforce action uses the Auto-Launched Flow as its backend automation.
 
 ---
 
@@ -93,7 +97,9 @@ The Agentforce action uses the Auto-Launched Flow as its backend automation. :co
 - **Account & Contact Records**
 - **Task Management**
 
-### Architecture
+---
+
+## 🏗️ Architecture
 
 ```text
                 User
